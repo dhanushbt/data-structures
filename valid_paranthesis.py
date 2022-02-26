@@ -4,7 +4,7 @@ Class solution:
   def isvalid(self,s):
     stack=[]
     #hash map to map closing with opening brackets
-    closeToOpen={")":"(","}":"{","[":"]"}
+    closeToOpen={")":"(","}":"{","]":"["}
     #search over string->to build stack
     for char in s:
       #if the char in closing bracket
